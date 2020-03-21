@@ -1,2 +1,117 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+:root{
+    /* turquoise color */
+   --9c: #1abc9c;
+   --a9: #46bfa9
+}
+
+*{
+   box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', 'Arial', sans-serif;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;    
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul, menu{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+.site-logo{
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 300;
+}
+
+.site-logo a{
+    color: #555252;
+}
+
+.site-logo a::first-letter{
+    font-weight: 900;
+    color: var(--9c);
+}
+
+.menu-item a{
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 11px;
+    color: #0f0101;
+}
+
+.slider{
+    height: 600px;
+    background-image: url(../img/slide4.jpg);
+    background-size: cover;
+    background-color: #323232;
+}
+
+.new-collection{
+    background-color: #e9f0fd;
+    padding-top: 92px;
+    margin: 0;
+}
+
+.new-collection h2{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 32px;
+    color: #515151;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.new-collection h2::after{
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color: var(--9c);
+    content: "";
+    margin: 28px auto auto auto;
+    padding: 0;
+}
+
+.product-name, .price{
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.copyright-info{
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fefefe;
+    background-color: #323232;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    height: 88px;
+}
+
+.designed-company{
+    display: inline;
+    color: var(--a9);
+}
+  
+
 
   
